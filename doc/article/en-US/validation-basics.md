@@ -18,7 +18,7 @@
 
 This article covers the basics of validation with Aurelia's validation plugin. You'll learn how to add validation to your applications using a fluent rule API and minimal changes to your templates.
 
-To get started you'll need to install `aurelia-validation` using `jspm install aurelia-validation` or `npm install aurelia-validation --save`. Afterwards, add `.plugin('aurelia-validation')` to the configuration in your `main.js` to ensure the plugin is loaded at application startup.
+To get started you'll need to install `aurelia-validation` using `jspm install aurelia-validation` or `npm install aurelia-validation --save`. Afterwards, add `aurelia.use.standardConfiguration().plugin('aurelia-validation');` to the configuration in your configuration startup function (usually located `main.js`, or `boot.js`) to ensure the plugin is loaded at application startup.
 
 If you're using the `aurelia-cli`, add the following configuration to your `aurelia.json` after you've installed the package with npm.
 
